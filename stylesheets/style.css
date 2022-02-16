@@ -175,13 +175,13 @@ header, .main, footer {
 -------------------- */
 /* line 396, ../sass/style.scss */
 .header-wrapper {
-  background: #9f1c19;
+  background:rgb(206, 229, 208);
 }
 
 /* line 400, ../sass/style.scss */
 header {
   padding: 20px;
-  background: #9f1c19;
+  background: rgb(206, 229, 208);
 }
 
 /* line 405, ../sass/style.scss */
@@ -260,69 +260,51 @@ section {
 
 /* line 460, ../sass/style.scss */
 .color-swatch-1 {
-  background: #9f1c19;
+  background: rgb(243, 240, 215);
 }
 
 /* line 464, ../sass/style.scss */
 .color-swatch-2 {
-  background: #65d1fb;
+  background: rgb(206, 229, 208);
 }
 
 /* line 468, ../sass/style.scss */
 .color-swatch-3 {
-  background: #05abeb;
+  background: rgb(224, 192, 151);
 }
 
 /* line 472, ../sass/style.scss */
 .color-swatch-4 {
-  background: #ff8500;
+  background: rgb(255, 120, 120);
 }
 
 /* line 476, ../sass/style.scss */
 .color-swatch-5 {
-  background: #ff241f;
+  background: rgb(157, 83, 83);
 }
 
-/* Texture swatches
--------------------- */
-/* line 483, ../sass/style.scss */
-[class*="texture-swatch-"] {
-  overflow: hidden;
-  height: 8em;
-  border: 4px solid white;
-  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.25);
-}
-
-/* line 490, ../sass/style.scss */
-.texture-swatch-1 {
-  background: url("../img/pw_maze_white.png") top left repeat;
-}
-
-/* line 494, ../sass/style.scss */
-.texture-swatch-2 {
-  background: url("../img/white_paperboard.png") top left repeat;
-}
-
-/* line 498, ../sass/style.scss */
-.texture-swatch-3 {
-  background: url("../img/subtle_grunge.png") top left repeat;
-}
 
 /* Buttons
 --------------------- */
 /* line 505, ../sass/style.scss */
+
+.section-heading{
+margin-top: 9em;
+}
+
 [class*="button-"] {
   display: inline-block;
   position: relative;
   margin-right: 1em;
   margin-bottom: 1em;
+  margin-top: 9,5em;
 }
 
 /* line 512, ../sass/style.scss */
 .button-1 {
   padding: 1em;
   border-radius: 4px;
-  background: #05abeb;
+  background: rgb(255, 120, 120);
   text-align: center;
   text-decoration: none;
   font: bold 1.25em/1 "Open Sans", sans-serif;
@@ -341,7 +323,7 @@ section {
 .button-2 {
   padding: 1em;
   border-radius: 4px;
-  background: #ff241f;
+  background: rgb(157, 83, 83);
   text-align: center;
   text-decoration: none;
   font: bold 1.25em/1 "Open Sans", sans-serif;
@@ -372,14 +354,15 @@ section {
 
 /* line 527, ../sass/style.scss */
 h3.typography-sample {
-  font: bold 2.4em/1.25 "Open Sans", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: x-large;
   margin-bottom: .25em;
   color: #363636;
 }
 
 /* line 531, ../sass/style.scss */
 h4.typography-sample {
-  font: italic 1.5em/1.25 "Droid Serif", serif;
+  font-family: serif;
   margin-bottom: .25em;
   color: #363636;
 }
@@ -413,7 +396,7 @@ a.typography-sample:hover {
 p[class*="font-details-"] {
   margin-top: .5em;
   margin-bottom: 2em;
-  font: 0.75em/1 "Droid Serif", serif;
+  font:  1em/1.5 "Droid Serif", serif;
   color: #6f6f6f;
 }
 /* line 285, ../sass/style.scss */
@@ -425,38 +408,38 @@ p[class*="font-details-"] .font-color {
 -------------------- */
 /* line 549, ../sass/style.scss */
 .adjective-1 {
-  font: italic 1.6em/1 "Open Sans", sans-serif;
-  color: #9f1c19;
+  font: 1em/1.5 "Droid Serif", serif;
+  color: black;
 }
 
 /* line 553, ../sass/style.scss */
 .adjective-2 {
-  font: bold 1.25em/1.25 "Droid Serif", serif;
-  color: #05abeb;
+  font: 1em/1.5 "Droid Serif", serif;
+  color: black;
 }
 
 /* line 556, ../sass/style.scss */
 .adjective-3 {
-  font: 1.5em/1 "Open Sans", sans-serif;
-  color: #ff8500;
+  font: 1em/1.5 "Droid Serif", serif;
+  color: black;
 }
 
 /* line 560, ../sass/style.scss */
 .adjective-4 {
-  font: 1.6em/1.15 "Open Sans", sans-serif;
-  color: #65d1fb;
+  font: 1em/1.5 "Droid Serif", serif;
+  color: black;
 }
 
 /* line 564, ../sass/style.scss */
 .adjective-5 {
-  font: bold italic 3em/0.7 "Open Sans", sans-serif;
-  color: #ff241f;
+  font: 1em/1.5 "Droid Serif", serif;
+  color: black;
 }
 
 /* line 568, ../sass/style.scss */
 .adjective-6 {
-  font: bold italic 1.8em/1.1 "Droid Serif", serif;
-  color: #05abeb;
+  font: 1em/1.5 "Droid Serif", serif;
+  color: black;
 }
 
 /* Footer
